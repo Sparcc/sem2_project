@@ -56,21 +56,28 @@ a:focus {
  * SECTION IF YOU CHANGE THEMES
  */
 
+#page{
+	max-width:1300px; 
+}
  
- /* Homepage/Front-page widget containers */
- /* top bar widget area */
-.top-bar{
-background-color:orange;
-clear:right;
-margin-bottom: 1em;
-margin-left:0 auto;
-margin-right:0 auto;
+#site-branding.div.container.logo
+
+div.after-footer{
+	background-color:#00BFFF;
+}
+ 
+/* Homepage/Front-page widget containers */
+/* top bar widget area */
+div.top-bar{
+	clear:right;
+	margin-bottom: 1em;
+	margin-left:0 auto;
+	margin-right:0 auto;
 }
 
 
 /* left column widget area */
 div.left-col{
-	background-color:red;
 	float:left;
 	width:50%;
 	min-width: 550px;
@@ -78,11 +85,6 @@ div.left-col{
 
 /* right column widget area */
 div.right-col{
-<<<<<<< Updated upstream
-	background-color:green;
-=======
-	background-color:red;
->>>>>>> Stashed changes
 	float:left;
 	width:50%;
 	min-width: 550px;

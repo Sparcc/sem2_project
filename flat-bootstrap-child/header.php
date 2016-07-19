@@ -35,7 +35,6 @@
 		$custom_header_location = isset ( $xsbf_theme_options['custom_header_location'] ) ? $xsbf_theme_options['custom_header_location'] : 'content-header';
 		if ( $custom_header_location == 'header' ) :
 		?>
-			stuff
 			<div id="site-branding" class="site-branding">
 			
 			<?php
@@ -44,7 +43,7 @@
 			?>
 				<div class="custom-header-image" style="background-image: url('<?php echo header_image() ?>'); width: <?php echo get_custom_header()->width; ?>px; height: <?php echo get_custom_header()->height ?>px;">
 				<div class="container">
-                <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
+                <?php if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
                 <div class="site-branding-text">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' )?></a></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
