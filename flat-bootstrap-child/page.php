@@ -21,15 +21,15 @@ if ( is_front_page() and !is_paged() ){
 ?>
 
 <div class="top-bar">
-TOP BAR
+<?php dynamic_sidebar( 'widget_area_1' ); ?>
 </div>
 
 <div class="left-col">
-LEFT COLUMN
+<?php dynamic_sidebar( 'widget_area_2' ); ?>
 </div>
 
 <div class="right-col">
-RIGHT COLUMN
+<?php dynamic_sidebar( 'widget_area_3' ); ?>
 </div>
 	
 <?php

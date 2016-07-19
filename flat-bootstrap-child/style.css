@@ -60,17 +60,15 @@ a:focus {
  /* Homepage/Front-page widget containers */
  /* top bar widget area */
 .top-bar{
-background-color:orange;
-clear:right;
-margin-bottom: 1em;
-margin-left:0 auto;
-margin-right:0 auto;
+	clear:right;
+	margin-bottom: 1em;
+	margin-left:0 auto;
+	margin-right:0 auto;
 }
 
 
 /* left column widget area */
 div.left-col{
-	background-color:red;
 	float:left;
 	width:50%;
 	min-width: 550px;
@@ -78,7 +76,6 @@ div.left-col{
 
 /* right column widget area */
 div.right-col{
-	background-color:green;
 	float:left;
 	width:50%;
 	min-width: 550px;
