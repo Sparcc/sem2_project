@@ -19,17 +19,17 @@ get_header(); ?>
 <?php //get_sidebar( 'home' ); 
 if ( is_front_page() and !is_paged() ){
 ?>
-
+here html
 <div class="top-bar">
-<?php dynamic_sidebar( 'widget_area_1' ); ?>
+TOP BAR
 </div>
 
 <div class="left-col">
-<?php dynamic_sidebar( 'widget_area_2' ); ?>
+LEFT COLUMN
 </div>
 
 <div class="right-col">
-<?php dynamic_sidebar( 'widget_area_3' ); ?>
+RIGHT COLUMN
 </div>
 	
 <?php
