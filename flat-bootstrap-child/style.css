@@ -59,11 +59,24 @@ a:focus {
 #page{
 	max-width:1300px; 
 }
- 
-#site-branding.div.container.logo
+
+
+#site-logo{
+	float:left;
+	max-width:300px;
+	height:auto;
+}
+
+div.navbar-default {
+    background-color: #00BFFF;
+}
 
 div.after-footer{
-	background-color:#00BFFF;
+	background:#00BFFF;
+}
+
+.slider.nivoSliderWeptile{
+	box-shadow: 0px 0px 0px 0px #000000;
 }
  
 /* Homepage/Front-page widget containers */
@@ -90,3 +103,6 @@ div.right-col{
 	min-width: 550px;
 }
 
+div.header-widget{
+	float: right;
+}

@@ -210,6 +210,16 @@ function xsbf_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+	
+		register_sidebar( array(
+		'name' => esc_html__('head widget', 'ipaaweb'),
+		'id' => 'header_widget_area',
+		'description'   => esc_html__( 'Add widgets here.', 'ipaaweb' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
 
 } //end function
 endif; // end ! function_exists
