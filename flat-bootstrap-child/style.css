@@ -78,12 +78,34 @@ div.after-footer{
 .slider.nivoSliderWeptile{
 	box-shadow: 0px 0px 0px 0px #000000;
 }
+
+.about-us{
+	background-color: #00BFFF;
+}
+
+.widget.about-us,
+.widget_twitter_feed_widget{
+	padding: 20px;
+}
+
+.about-us h2.widget-title{
+	margin-top:15px;
+}
+
+div.timeline-twitter-widget{
+	max-width:100%;
+	max-height:100%;
+}
+
+div.timeline-twitter-feed{
+	max-width:100%;
+	max-height:100%;
+}
  
 /* Homepage/Front-page widget containers */
 /* top bar widget area */
 div.top-bar{
 	clear:right;
-	margin-bottom: 1em;
 	margin-left:0 auto;
 	margin-right:0 auto;
 }
@@ -92,15 +114,19 @@ div.top-bar{
 /* left column widget area */
 div.left-col{
 	float:left;
-	width:50%;
+	width:65%;
 	min-width: 550px;
+	padding: 0px 0px 0px 0px;
+	margin-right:0.5%;
+	background-color: #FFFFFF;
 }
 
 /* right column widget area */
 div.right-col{
 	float:left;
-	width:50%;
-	min-width: 550px;
+	width:34%;
+	min-width: 350px;
+	background-color: #00BFFF;
 }
 
 div.header-widget{
