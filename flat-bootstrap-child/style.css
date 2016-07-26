@@ -118,9 +118,12 @@ div.after-footer{
 .about-us{
 	background-color: #00BFFF;
 }
-
+/* widget classes are specified explicitly here as about-us or events for example,
+through the customise interface on wordpress. This option appears on widgets with
+the plugin "advanced custom fields"*/
 .widget.about-us,
-.widget_twitter_feed_widget{
+.widget_twitter_feed_widget,
+.events{
 	padding: 20px;
 }
 
@@ -171,7 +174,7 @@ div.left-col{
 	float:left;
 	width:65%;
 	min-width: 550px;
-	padding: 0px 0px 0px 0px;
+	/*padding: 0px 0px 0px 0px;*/
 	margin-right:0.5%;
 	background-color: #FFFFFF;
 }
