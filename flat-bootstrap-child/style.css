@@ -124,6 +124,25 @@ div.after-footer{
 	padding: 20px;
 }
 
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item > a{
+	font-style: Arial;
+	font-size:2em;
+}
+
+/*
+
+.widget{
+	border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+
+footer.sidebar-footer.container.row.widget, .social-widget-9{
+	border-style: solid;
+    border-width: 0px 0px 0px 0px;
+}
+
+*/
+
 .about-us h2.widget-title{
 	margin-top:15px;
 }
