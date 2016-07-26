@@ -62,8 +62,17 @@ a:focus {
  * SECTION IF YOU CHANGE THEMES
  */
  
+table{
+	 border:none;
+}
+
+.entry-content td, .comment-content td {
+    border-top:0px;
+    padding: 6px 10px 6px 0;
+}
+ 
 .content-header{
-	color: #2D3033;
+	background-color: #2980B9;
 }
  
 body{
@@ -153,5 +162,5 @@ div.header-widget{
 }
 
 div.sidebar-footer.clearfix{
-	background-color: #2D3033;
+	background-color: #2980B9;
 }
