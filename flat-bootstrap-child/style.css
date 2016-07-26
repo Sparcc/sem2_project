@@ -30,6 +30,11 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
 /* Change the content (page) header to dark blue. */
 .content-header {
 	background-color: #2980b9;
+	/*
+	width:5000px;
+	margin-left:0 auto;
+	margin-right:0 auto;
+    overflow: auto;*/
 }
 
 /* Change the main link color to dark blue. Note that the hover color is set using a 
@@ -37,7 +42,8 @@ Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, 
  * way we don't need to try to figure out a hover color that looks good. 
  */
 a {
-	color: #2980b9;
+	/*color: #2980b9;*/
+	color: #2D3033;
 }
 a:hover,
 a:focus {
@@ -55,6 +61,19 @@ a:focus {
 /* PUT ANY NEW STYLES TO USE IN YOUR CONTENT AREAS HERE SO YOU CAN EASILY PASTE THIS
  * SECTION IF YOU CHANGE THEMES
  */
+ 
+.content-header{
+	color: #2D3033;
+}
+ 
+body{
+	color: #2D3033;
+}
+
+a.menu-item {
+	/*color: #2D3033;*/
+	color: red;
+}
 
 #page{
 	max-width:1300px; 
@@ -124,11 +143,15 @@ div.left-col{
 /* right column widget area */
 div.right-col{
 	float:left;
-	width:34%;
+	width:34.5%;
 	min-width: 350px;
-	background-color: #00BFFF;
+	/*background-color: #00BFFF;*/
 }
 
 div.header-widget{
 	float: right;
+}
+
+div.sidebar-footer.clearfix{
+	background-color: #2D3033;
 }
