@@ -172,7 +172,7 @@ div.top-bar{
 /* left column widget area */
 div.left-col{
 	float:left;
-	width:65%;
+	width:50%;
 	min-width: 550px;
 	/*padding: 0px 0px 0px 0px;*/
 	margin-right:0.5%;
@@ -182,7 +182,7 @@ div.left-col{
 /* right column widget area */
 div.right-col{
 	float:left;
-	width:34.5%;
+	width:49.5%;
 	min-width: 350px;
 	/*background-color: #00BFFF;*/
 }
