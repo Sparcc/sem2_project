@@ -86,9 +86,18 @@ body{
 	color: #2D3033;
 }
 
+/*
 a.menu-item {
-	/*color: #2D3033;*/
-	color: red;
+	color: red !important;
+}
+*/
+li.menu-item > a{
+	color: black !important;
+	font-weight: bold;
+}
+
+#menu-item-58 > a{
+color: red;
 }
 
 #page{
