@@ -92,8 +92,8 @@ a.menu-item {
 }
 */
 li.menu-item > a{
-	color: black !important;
-	font-weight: bold;
+	color: #2D3033 !important;
+	font-weight: bold !important;
 }
 
 #menu-item-58 > a{
