@@ -62,9 +62,40 @@ a:focus {
  * SECTION IF YOU CHANGE THEMES
  */
 
-/* navbar */
+ /*header*/
+ header.content-header {
+    min-height: 50px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+#content > header > div > h1
+{
+	margin-top: 11px;
+}
+
+/*navbar*/
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item > a{
+	
+	font-style: Arial;
+}
+
+#menu-navigation-bar
+{
+	/*height:100px;*/
+	
+}
+
 div.navbar.navbar-default.navbar-static-top{
 	/*height:100px;*/
+}
+
+/*footer*/
+#colophon > div.sidebar-footer.clearfix
+{
+	min-height: 50px;
+	padding-top:0px;
+	padding-bottom:0px;
 }
 
 /* tables */
@@ -96,9 +127,6 @@ li.menu-item > a{
 	font-weight: bold !important;
 }
 
-#menu-item-58 > a{
-color: red;
-}
 
 #page{
 	max-width:1300px; 
@@ -134,11 +162,6 @@ the plugin "advanced custom fields"*/
 .widget_twitter_feed_widget,
 .events{
 	padding: 20px;
-}
-
-li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item > a{
-	font-style: Arial;
-	font-size:2em;
 }
 
 /*
