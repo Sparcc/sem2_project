@@ -189,6 +189,8 @@
 	 * OTHERWISE IF NO IMAGE, THEN JUST DISPLAY TEXT WITH "CONTENT-HEADER" CSS STYLE
 	 */
 	elseif ( $title ) :
+	
+	if ( !is_front_page() and !is_paged() ){
 	?>
 		<header class="content-header">
 		<div class="container">
@@ -196,6 +198,9 @@
 		<?php if ( $subtitle ) printf( '<h3 class="page-subtitle taxonomy-description">%s</h3>', $subtitle ); ?>
 		</div>
 		</header>
+	<?php
+	}
+	?>
 
 	<?php endif; // $image_url ?>
 
