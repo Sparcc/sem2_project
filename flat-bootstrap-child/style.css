@@ -101,7 +101,10 @@ div.navbar.navbar-default.navbar-static-top{
 /* tables */
 table{
 	 border:none;
+	 border-bottom: 0px !important;
 }
+
+td, th { border-bottom: 1px solid #CCC;}
 
 /*stops lines appearing for td elements */
 .entry-content td, .comment-content td {
@@ -206,7 +209,6 @@ div.left-col{
 	float:left;
 	width:50%;
 	min-width: 550px;
-	/*padding: 0px 0px 0px 0px;*/
 	margin-right:0.5%;
 	background-color: #FFFFFF;
 }
@@ -216,7 +218,6 @@ div.right-col{
 	float:left;
 	width:49.5%;
 	min-width: 350px;
-	/*background-color: #00BFFF;*/
 }
 
 div.header-widget{
@@ -225,4 +226,44 @@ div.header-widget{
 
 div.sidebar-footer.clearfix{
 	background-color: #2980B9;
+}
+/*other pages*/
+
+/*meet-our-council page*/
+
+@media screen and (min-width: 300px) {
+	
+
+}
+
+.council-officers-left-col > table, .council-members-left-col > table{
+	border-bottom: 0px;/*
+	border-collapse:collapse; 
+	border-spacing: 0;*/
+}
+
+.council-officers > h3, .council-members > h3{
+	clear:left;
+}
+
+
+.council-officers-left-col, .council-members-left-col{
+	float:left;
+	width:49%;
+	min-width:580px;
+	clear:left;
+}
+
+.council-officers-right-col > table, .council-members-right-col > table{
+	border-bottom: 0px;/*
+	border-collapse:collapse; 
+	border-spacing: 0;*/
+}
+
+.council-officers-right-col, .council-members-right-col{
+	float:left;
+	width:49%;
+	min-width:580px;
+	border-bottom: 0px !important;
+	clear:right;
 }
