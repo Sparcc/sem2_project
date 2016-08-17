@@ -36,7 +36,7 @@
 		if ( $custom_header_location == 'header' ) :
 		?>
 			<div id="site-branding" class="site-branding">
-			<div id="site-logo"><a href="<?php echo home_url();?>"><img src="http://localhost/wordpress/wp-content/uploads/2016/07/HD_logo.png"/></a></div>
+			<div id="site-logo"><a href="<?php echo home_url();?>"><img src="http://localhost/wordpress/wp-content/uploads/2016/08/HD_logo.png"/></a></div>
 			<div class="header-widget">
 				<?php dynamic_sidebar( 'header_widget_area' ); ?>
 			</div>

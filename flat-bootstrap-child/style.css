@@ -61,6 +61,10 @@ a:focus {
 /* PUT ANY NEW STYLES TO USE IN YOUR CONTENT AREAS HERE SO YOU CAN EASILY PASTE THIS
  * SECTION IF YOU CHANGE THEMES
  */
+ 
+ .col-md-8 {
+    width: auto;
+}
 
  /*header*/
  header.content-header {
@@ -69,10 +73,11 @@ a:focus {
 	padding-bottom:15px;
 }
 
+/*
 #content > header > div > h1
 {
 	margin-top: 11px;
-}
+}*/
 
 /*navbar*/
 li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item > a{
@@ -104,7 +109,8 @@ table{
 	 border-bottom: 0px !important;
 }
 
-td, th { border-bottom: 1px solid #CCC;}
+/*
+td, th { border-bottom: 1px solid #CCC;}*/
 
 /*stops lines appearing for td elements */
 .entry-content td, .comment-content td {
@@ -250,7 +256,7 @@ div.sidebar-footer.clearfix{
 .council-officers-left-col, .council-members-left-col{
 	float:left;
 	width:49%;
-	min-width:580px;
+	min-width:350px;
 	clear:left;
 }
 
@@ -263,7 +269,7 @@ div.sidebar-footer.clearfix{
 .council-officers-right-col, .council-members-right-col{
 	float:left;
 	width:49%;
-	min-width:580px;
+	min-width:350px;
 	border-bottom: 0px !important;
 	clear:right;
 }
